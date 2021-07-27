@@ -37,26 +37,23 @@
 .leaderboards-board-title-title {
     font-size: 1.5rem;
     font-weight: 800;
-    margin-bottom: 1rem;
 }
 
 .leaderboards-board-title-buttons-wrapper {
     display: flex;
-}
-
-.leaderboards-board-title-buttons-wrapper > * {
-    margin-left: 1rem;
-}
-
-.leaderboards-board-title-buttons-wrapper > *:first-child {
-    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: space-around;
 }
 
 .leaderboards-board-title-buttons {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 0.5rem;
     border: 2px solid grey;
+    margin: 0.5rem;
 }
 
 .leaderboards-board-content-wrapper {
@@ -100,9 +97,12 @@
     flex-basis: 0;
     background-color: #EFF2FC;
     display: flex;
+    flex-direction: column;
+    padding: 1rem;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
     border-radius: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
 }

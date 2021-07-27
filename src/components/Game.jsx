@@ -98,7 +98,7 @@ class Game extends React.Component {
     render() {
         return (
             <div class="game-content-wrapper">
-                {/* {!this.state.inGame &&
+                {!this.state.inGame &&
                     <div onClick={this.startGame} class="buzz-button">
                         Start Game
                     </div>
@@ -118,8 +118,8 @@ class Game extends React.Component {
                 </div>
                 <div onClick={this.buzz} class="buzz-button">
                     {this.state.buzzed ? "Buzzed!" : "Buzz in"}
-                </div> */}
-                {false && <AnswerBox/>}
+                </div>
+                {/* {false && <AnswerBox/>} */}
             </div>
             
         )

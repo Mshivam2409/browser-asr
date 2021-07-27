@@ -33,13 +33,7 @@ class Leaderboards extends React.Component {
                         <div class="leaderboards-board-title-title">
                             Global Leaderboards
                         </div>
-                        <div class="leaderboards-board-title-buttons-wrapper">
-                            <div class="leaderboards-board-title-buttons"></div>
-                            <div class="leaderboards-board-title-buttons"></div>
-                            <div class="leaderboards-board-title-buttons"></div>
-                            <div class="leaderboards-board-title-buttons"></div>
-                            <div class="leaderboards-board-title-buttons"></div>
-                        </div>
+                        
                     </div>
 
                     <div class="leaderboards-board-content-wrapper">
@@ -56,7 +50,28 @@ class Leaderboards extends React.Component {
                     </div>
                 </div>
                 <div class="leaderboards-distribution-content-wrapper">
-                    COMING SOON
+                    Categories
+                    <div class="leaderboards-board-title-buttons-wrapper">
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                        <div class="leaderboards-board-title-buttons"></div>
+                    </div>
                 </div>
             </div>
         );
